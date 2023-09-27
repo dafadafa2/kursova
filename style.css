@@ -364,7 +364,7 @@ font-weight: 700;
 }
 .compain{
   font-family: Raleway;
-  font-size: 14px;
+  font-size: 0.88vw;
 font-weight: 300;
 margin-top: 7.5vw;
 margin-left: 85vw;
@@ -372,6 +372,7 @@ margin-left: 85vw;
 
 
 .left{
+  font-size: 0.50vw;
   width: 5vw;
   height: 5vw;
   margin-top: 2vw;
@@ -447,43 +448,518 @@ margin-left: 85vw;
 }
 .ttt{
   margin-top: 12vw;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 425px) {
+.header-top{
+  display: none;
 }
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1440px) {
+/* скрываем чекбокс */
+#menu__toggle {
+  opacity: 0;
+}
+/* стилизуем кнопку */
+.menu__btn {
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center;  /* центрируем содержимое кнопки */
+  position: absolute;
+  top: 2vw;
+  left: 2vw;
+  width: 6vw;
+  height: 6vw;
+  cursor: pointer;
+  z-index: 1;
+}
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+/* контейнер меню */
+.menu__box {
+  margin-top: 10vw;
+  display: grid;
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+  width: 80vw;
+  height: 15vw;
+  margin: 0;
+  padding: 120px 0;
+  list-style: none;
+  text-align: left;
+  background-color: #FFF;
   
 }
+/* элементы меню */
+.menu__item {
+  margin-top: -5vw;
+  margin-left: 2vw;
+  display: flex;
+  color: #000000;
+  font-family: Dela Gothic One;
+  font-size: 6vw;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 2vw 0;
+}
+.menu__item1 {
+  margin-top: -12vw;
+  margin-left: 2vw;
+  display: flex;
+  color: #DA1F39;
+  font-family: Dela Gothic One;
+  font-size: 6vw;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 2vw 0;
+}
+.menu__item3 {
+  margin-top: -7vw;
+  margin-left: 2vw;
+  display: flex;
+  color: #000000;
+  font-family: Dela Gothic One;
+  font-size: 6vw;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 2vw 0;
+}
+.menu__item4 {
+  margin-top: -2vw;
+  margin-left: 2vw;
+  display: flex;
+  color: #000000;
+  font-family: Dela Gothic One;
+  font-size: 6vw;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 2vw 0;
+}
+.menu__item5 {
+  margin-top: 3vw;
+  margin-left: 2vw;
+  display: flex;
+  color: #000000;
+  font-family: Dela Gothic One;
+  font-size: 6vw;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 2vw 0;
+}
+.menu__item:hover {
+  background-color: #ffffff;
+}
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+.logoadaptivphoto{
+  width: 40vw;
+  height: 10vw;
+}
+.palka{
+  margin-top: 2vw;
+  width: 15vw;
+  height: 7vw;
+
+}
+
+.menu__item2 {
+  margin-left: 32vw;
+  margin-top: -36vw;
+  display: flex;
+  color: #000000;
+  font-family: Dela Gothic One;
+  font-size: 6vw;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 2vw 0;
+}
+.menu__item6 {
+  margin-left: 5vw;
+  margin-top: 26vw;
+  display: flex;
+  color: #000000;
+  font-family: Raleway;
+  font-size: 6vw;
+  
+  text-decoration: none;
+  padding: 2vw 0;
+}
+.menu__item7 {
+  margin-left: 20vw;
+  margin-top: 25vw;
+  display: flex;
+  color: #000000;
+  font-family: Raleway;
+  font-size: 6vw;
+  
+  text-decoration: none;
+  padding: 2vw 0;
+}
+.menu__item8 {
+  margin-left: 33vw;
+  margin-top: 24vw;
+  display: flex;
+  color: #000000;
+  font-family: Raleway;
+  font-size: 6vw;
+  
+  text-decoration: none;
+  padding: 2vw 0;
+}
+.menu__item9 {
+  margin-left: 32vw;
+  margin-top: -43vw;
+  display: flex;
+  color: #000000;
+  font-family: Raleway;
+  font-size: 6vw;
+  
+  text-decoration: none;
+  padding: 2vw 0;
+}
+.menu__item10 {
+  margin-left: 53vw;
+  margin-top: 21vw;
+  display: flex;
+  color: #000000;
+  font-family: Raleway;
+  font-size: 6vw;
+ 
+  text-decoration: none;
+  padding: 2vw 0;
+}
+.menu__item11 {
+  margin-left: 60vw;
+  margin-top: 20vw;
+  display: flex;
+  color: #000000;
+  font-family: Raleway;
+  font-size: 6vw;
+  
+  text-decoration: none;
+  padding: 2vw 0;
+}
+.menu__item12 {
+  margin-left: 67vw;
+  margin-top: 19vw;
+  display: flex;
+  color: #000000;
+  font-family: Raleway;
+  font-size: 6vw;
+  text-decoration: none;
+  padding: 2vw 0;
+}
+.vertical-line {
+  margin-left:14vw ;
+  width: 0.5vw; /* Ширина палки */
+  height: 4.4vw; /* Высота палки */
+  background-color: #000; /* Цвет палки */
+}
+.main{
+  display: none;
+}
+.main1{
+  display: none;
+}
+.main2{
+  display: none;
+}
+.border123{
+  display: none;
+}
+.border1{
+  display: none;
+}
+.block1{
+  display: none;
+}
+.filter{
+  display: none;
+}
+.adaptlogo{
+  margin-top: 0vw;
+  margin-left: 38vw;
+  width: 25vw;
+  height: 8vw;
+}
+.product{
+  width: 90vw;
+  height: 150vw;
+  display: grid;
+  grid-template-columns:  4fr 3.7fr;
+  margin-top: 3vw;
+  margin-left: 5vw;
+  position: absolute;
+  font-size: 2vw;
+}
+.image1{
+  width: 43vw;
+  height: 40vw;
+}
+
+.cash1{
+  margin-top: 4vw;
+  font-size: 3vw;
+}
+.search1{
+width: 5vw;
+height: 5vw;
+margin-top: 1.3vw;
+margin-left: 43vw;
+position: absolute;
+}
+.vector1{
+  width: 5vw;
+  height: 5vw;
+  margin-top: 1.2vw;
+  margin-left: 46vw;
+  position: absolute;
+}
+.main3{
+  width: 60vw;
+  height: 10vw;
+  margin-top: 13vw;
+  margin-left: 40vw;
+  font-size: 4vw;
+ font-family: Dela Gothic One;
+}
+.left1{
+  width: 20vw;
+  height: 10vw;
+}
+.sorting1{
+  width: 30vw;
+  height: 5vw;
+  margin-left: 49vw;
+  font-family: Raleway;
+  font-weight: 100;
+}
+.sorting-new1{
+  width: 21vw;
+  height: 4vw;
+  margin-left:75vw;
+  margin-top: -4.9vw;
+  position: absolute;
+  border: none;
+  font-family: Raleway;
+  font-size: 3.7vw;
+}
+.more{
+  margin-top: 160vw;
+  margin-left: 35vw;
+  font-size: 4vw;
+}
+.svg{
+  width: 3vw;
+  height: 3vw;
+  margin-top: 161vw;
+  margin-left: 70vw;
+}
+.down{
+  margin-top: 7vw;
+  height: 100vw;
+}
+.number{
+  display: none;
+}
+.number1{
+  display: none;
+}
+.number2{
+  display: none;
+}
+.inftxt{
+  width: 60vw;
+  height: 40vw;
+  font-size: 4vw;
+  margin-left: 2vw;
+  margin-top: 20vw;
+  display: grid;
+  grid-template-columns:  1fr 2fr;
+}
+.inftxt1{
+  width: 60vw;
+  height: 40vw;
+  font-size: 4vw;
+  margin-left: 2vw;
+  margin-top: 59vw;
+  display: grid;
+  grid-template-columns:  1fr 2fr;
+}
+.imgdown{
+  width: 40vw;
+  height: 10vw;
+  margin-left: 30vw;
+}
+.social{
+  width: 30vw;
+  height: 10vw;
+  font-size: 3vw;
+  margin-left: 70vw;
+  margin-top: -61vw;
+  
+}
+.socialsvg{
+  width: 20vw;
+  height: 3vw;
+  margin-top: -55vw;
+  margin-left: 70vw;
+}
+.social1{
+  width: 5vw;
+  height: 5vw;
+}
+.social2{
+  width: 5vw;
+  height: 5vw;
+}
+.social3{
+  width: 5vw;
+  height: 5vw;
+}
+.social4{
+  width: 5vw;
+  height: 5vw;
+}
+.social5{
+  width: 5vw;
+  height: 5vw;
+}
+.compain{
+  margin-left: 2vw;
+  width: 39vw;
+  height: 3vw;
+  font-size: 3vw;
+  margin-top: 50vw;
+}
+.contact{
+  width: 80vw;
+  height: 10vw;
+  margin-top: 55vw;
+  margin-left: 3vw;
+  font-size: 3vw;
+}
+.time{
+  width: 80vw;
+  height: 10vw;
+  margin-top: 5vw;
+  margin-left: 3vw;
+  font-size: 3vw;
+}
+}
+
+
+
+@media screen and (max-width:2440px ) and (min-width:426px) {
+  .main3{
+    display: none;
+  }
+  .sorting1{
+    display: none;
+  }
+  .sorting-new1{
+    display: none;
+  }
+  .menu__item1{
+    display: none;
+  }
+  .menu__item2{
+    display: none;
+  }
+  .menu__item3{
+    display: none;
+  }
+  .menu__item4{
+    display: none;
+  }
+  .menu__item5{
+    display: none;
+  }
+.menu__item6{
+  display: none;
+}
+.menu__item7{
+  display: none;
+}
+.menu__item8{
+  display: none;
+}
+.menu__item9{
+  display: none;
+}
+.menu__item10{
+  display: none;
+}
+.menu__item11{
+  display: none;
+}
+.menu__item12{
+  display: none;
+}
+marker{
+  display: none;
+}
+
+}
+
+

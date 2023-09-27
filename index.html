@@ -7,6 +7,26 @@
     <link rel="stylesheet" href="style.css">  
 </head>
 <body>
+    
+    <div>
+        <img src="img/logo.png" alt="logo" class="adaptlogo">
+    </div>
+    <div class="search1">
+        <img src="img/search.png" alt="search" class="search1">
+    </div>
+    <div class="vector1">
+        <img src="img/vector.png" alt="vector" class="vector1">
+    </div>
+    <p class="main3">
+        ЖІНОЧІ ВИШИВАНКИ
+    </p>
+    <p class="sorting1">
+        Сортувати за:
+    </p>
+    <select class="sorting-new1">
+        <option>новинки</option>
+        <option>старе</option>
+     </select>
     <header class="header-top">
      <div class="catalog">
         <p class="red">
@@ -54,7 +74,11 @@
         </p>
     </block>
     <block class="block1">
-       
+        <details class="left">
+            <summary>size</summary> 
+                <label for="input">42</label>
+                    <input type="checkbox" name="input">
+
                    
         </details>
         <!--<details class="change">
@@ -123,7 +147,7 @@
          
     </block>
         
-    <block>
+    <block class="filter">
         <img src="img/qaud.png" alt="quad" class="quad">
         <img src="img/quad4.png" alt="quad4" class="quad4">
         <p class="sorting">
@@ -172,9 +196,11 @@
     <block>
         <p class="more">Показати більше</p>
         <img src="img/svg.jpg" alt="svg" class="svg">
+        
         <p class="number1">1</p>
         <p class="number">2 3 ... 6</p>
         <p class="number2">Наступна</p>
+        
     </block>
     <block>
         <div class="down">
@@ -242,15 +268,33 @@
             </div>
             <p class="compain">© «Етнодім» 2009-2021</p>
         </div>
-
+        
       
         
-                <div class="checkbox">
-                    <input type="checkbox" id="click">
-                    <label for="click" class="text"> Чекбокс </label>
-                  </div>
                   
     </block>
-    
+    <block class="adaptiv">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <ul class="menu__box">
+              <li><a class="menu__item1" href="#">Каталог <img src="img/adapsvg.svg" alt="adap" class="palka"> </a></li>
+              <li><a class="menu__item3" href="#">Знижки</a></li>
+              <li><a class="menu__item4" href="#">Блог</a></li>
+              <li><a class="menu__item5" href="#">Про нас</a></li>
+              <li><a class="menu__item2" href="#"><img src="img/logo.png" alt="logo" class="logoadaptivphoto"></a></li>
+              <li><a class="menu__item6" href="#">UA</a></li>
+              <li><a class="menu__item7" href="#">RU</a></li>
+              <li><a class="menu__item8" href="#">EN</a></li>
+              <li><a class="menu__item8" href="#"><div class="vertical-line"></div></a></li>
+              <li><a class="menu__item10" href="#">₴</a></li>
+              <li><a class="menu__item11" href="#">$</a></li>
+              <li><a class="menu__item12" href="#">€</a></li>
+              </ul>
+          </div>
+    </block>
+ 
 </body>
 </html>
