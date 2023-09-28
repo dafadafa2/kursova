@@ -14,124 +14,131 @@ src: url('fonts/DelaGothicOne/DelaGothicOne-Regular.woff') format('woff');
 
 *{
   margin:0px;
-  height: 0px;
+  padding: 0px;
   
   
 }
 
 .header-top{
-  width: 100vw;
-  height: 6vw;
+  width: 100%;
+  height: 6%;
   display: flex;
   justify-content: space-between;
 }
 .red{
-  margin-left: 6vw;
-  margin-top: 2.1vw;
-  font-size: 0.88vw;
+  margin-left: 6%;
+  margin-top: 2.1%;
+  font-size: 14px;
   font-family: Raleway;
   position: absolute;
   color: red;
 }
 .txt{
   font-family: Raleway;
-  font-size: 0.88vw;
-  margin-top: 2.1vw;
-  margin-left: 10.5vw;
+  font-size: 14px;
+  margin-top: 2.1%;
+  margin-left: 10.5%;
   position: absolute;
 }
 .txt1{
   font-family: Raleway;
-  font-size: 0.88vw;
-  margin-left: 15vw;
-  margin-top: 2.1vw;
+  font-size: 14px;
+  margin-left: 15%;
+  margin-top: 2.1%;
   position: absolute;
 }
 .txt2{
+  width: 110%;
   font-family: Raleway;
-  font-size: 0.88vw;
-  margin-left: 17.7vw;
-  margin-top: 2.1vw;
+  font-size: 14px;
+  margin-left: 18%;
+  margin-top: 2.1%;
+  position: absolute;
 }
 .logoimg{
-  width: 12vw;
+  width: 150%;
   height: auto;
-  margin-top: 1vw;
+  margin-top: 1%;
 }
 .ua{
-  font-size: 0.88vw;
+  font-size: 14px;
   font-family: Raleway;
-  margin-right: 20vw;
-  width: 2.6vw;
+  margin-left: -24%;
+  width: 3%;
   height: auto;
-  margin-top: 2.1vw;
+  margin-top: 1.8%;
   border: none;
+  position: absolute;
 }
-.dollar{font-size: 0.88vw;
+.dollar{font-size: 14px;
   font-family: Raleway;
-  width: 1.9vw;
+  width: 2%;
   height: auto;
-  margin-top: 2.1vw;
-  margin-left: -20vw;
+  margin-top: 1.8%;
+  margin-left: -20%;
   position: absolute;
   border: none;
 }
 .numberphone{
+  
   font-family: Raleway;
-  font-size: 0.88vw;
-  margin-left: 5vw;
-  margin-top: -1.1vw;
+  font-size: 14px;
+  margin-left: -17%;
+  margin-top: 2%;
   position: absolute;
 }
 .search{
-  width: 1.2vw;
+  width: 1.5%;
   height: auto;
-  margin-left: -9vw;
-  margin-top: 1.6vw;
+  margin-left: -9%;
+  margin-top: 1.4%;
   position: absolute;
 }
 .vector{
-  width: 1.2vw;
+  width: 1.2%;
   height: auto;
-  margin-left: -7vw;
+  margin-left: -7%;
   position: absolute;
-  margin-top: 1.3vw;
+  margin-top: 1.3%;
 
 }
-.main{font-family: Raleway;
-  font-size: 0.88vw;
-  margin-left: 6vw;
+.main{
+  font-family: Raleway;
+  font-size: 14px;
+  margin-left: 6%;
   font-weight: 600;
-  margin-top: 0.5vw;
+  margin-top: 0.5%;
  }
  .border123{
-  border-top: 0.15vw black solid;
+  border-top: 2px black solid;
   position: absolute;
   width: 2vw;
-  margin-left: 9.6vw;
-  margin-top: 0.5vw;
+  margin-left: 9.3%;
+  margin-top: -0.5%;
  }
  .main1{font-family: Raleway;
-  font-size: 0.88vw;
-  margin-left: 11.5vw;
+  font-size: 14px;
+  margin-left: 11.5%;
+  margin-top: -0.85%;
   font-weight: 600;
  }
  .border1{
-  border-top: 0.15vw black solid;
+  border-top: 2px black solid;
   position: absolute;
-  width: 2vw;
-  margin-left: 14.9vw;
-  margin-top: 0.5vw;
+  width: 2%;
+  margin-left: 14.7%;
+  margin-top: -0.5%;
  }
  .main2{font-family: Raleway;
   font-weight: 300;
-  font-size: 0.88vw;
-  margin-left: 16.8vw;
+  font-size: 14px;
+  margin-left: 16.9%;
+  margin-top: -0.85%;
  }
  .block1{
-  width: 5vw;
-  height: 10vw;
-  margin-left: 80px;
+  width: 5%;
+  height: 10%;
+  margin-left: 10%;
   display: flex;
   flex-direction: column;
  }
@@ -213,7 +220,7 @@ src: url('fonts/DelaGothicOne/DelaGothicOne-Regular.woff') format('woff');
   font-size: 1vw;
   position: absolute;
   margin-left:20.5vw;
-  margin-top: -4vw;
+  margin-top: 7%;
 }
 .image1{
   width: 32vw;
@@ -262,20 +269,20 @@ font-weight: 700;
 font-weight: 700;
 }
 .down{
-  width: 100vw;
-  height: 23vw;
-  background-color: #F4F4F4;
-  margin-top: 6vw;
+  width: 100%;
+  height: 23%;
+  background-color: #c41010;
+  margin-top: 110%;
 }
 .inftxt{
   font-family: Raleway;
-  margin-top: 9vw;
-  margin-left: 5vw;
-  width: 20vw;
-  height: 10vw;
+  margin-top: 9%;
+  margin-left: 5%;
+  width: 20%;
+  height: 10%;
   display: grid;
   grid-template-columns:  1fr 3fr;
-  font-size: 0.88vw;
+  font-size: 14px;
   font-weight: 300;
   position: absolute;
 }
@@ -369,114 +376,28 @@ font-weight: 300;
 margin-top: 7.5vw;
 margin-left: 85vw;
 }
-
+.block1{
+  width: 5%;
+  height: 10%;
+  margin-left: 10%;
+  display: block;
+  
+ }
 
 .left{
-  font-size: 0.50vw;
-  width: 5vw;
-  height: 5vw;
+  font-size: 14px;
+  width: 110%;
+  height: 30%;
   margin-top: 2vw;
+ 
+  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.container {
-  display: block;
-  position: relative;
-  margin-top: 1.5vw;
-  padding-left: 1.3vw;
-  margin-bottom: 1vw;
-  cursor: pointer;
-  font-size: 0.88vw;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+.filter{
+  margin-top: 10%;
+  width: 110%;
+  height: auto;
+  position: block;
 }
-/* скрываем дефолтный флажок */
-/*.container .check-highload {
-  position: absolute;
-  opacity: 0;
-}
-/* Создаем кастомный checkbox */
-/*.highload2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 1vw;
-  width: 1vw;
-  background-color: #ffffff;
-}
-/* При наведении указателя мыши перекрашиваем */
-/*.container:hover .check-highload ~ .highload2 {
-  background-color: #747373;
-}
-/* Когда отмечен, то красим в зеленый цвет */
-/*.container .check-highload:checked ~ .highload2 {
-  background-color: rgb(255, 255, 255);
-}
-/* Создаем когда отмечено (не видно, когда не отмечено) */
-/*.highload2:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-/* Показываем когда отмечен */
-/*.container .check-highload:checked ~ .highload2:after {
-  display: block;
-}
-/* Стили индикатора */
-/*.container .highload2:after {
-  left: 4px;
-  top: 2px;
-  width: 2px;
-  height: 4px;
-  border: solid rgb(0, 0, 0);
-  border-width: 0 4px 4px 0;
-  transform: rotate(45deg);
-}
-.ttt{
-  margin-top: 12vw;
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -911,6 +832,15 @@ position: absolute;
 
 
 @media screen and (max-width:2440px ) and (min-width:426px) {
+  .adaptlogo{
+    display: none;
+  }
+  .search1{
+    display: none;
+  }
+  .vector1{
+    display: none;
+  }
   .main3{
     display: none;
   }
